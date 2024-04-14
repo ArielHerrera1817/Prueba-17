@@ -1,0 +1,20 @@
+/*Etiqueta HTML*/
+p {
+    color: rgb(255, 8, 0);
+}
+/*ID*/
+#destacado {
+    color: blue;
+}
+/*Clase*/
+.subtitulo {
+    color: rgb(0, 255, 55);
+}
+
+.articulo h2{
+    color: purple;
+}
+
+.articulo p{
+    color: brown;
+}
