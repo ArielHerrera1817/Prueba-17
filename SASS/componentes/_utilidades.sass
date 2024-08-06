@@ -1,0 +1,24 @@
+/*
+  Variables
+$main-color: red
+
+/*
+  Mixins
+  Un bloque de codigo reutilizable
+
+@mixin flex($display: flex , $justify: center, $align: center)
+  @if $display == flex
+  display: $display
+  justify-content: $justify
+  align-items: $align
+  @else if $display == grid
+  display: $display
+  justify-items: $justify
+  align-items: $align
+
+@mixin colors($text-colors: black, $background-color: white)
+  @if  $background-color == black
+    color: white
+  @else 
+    color: $text-colors
+  background-color: $background-color
